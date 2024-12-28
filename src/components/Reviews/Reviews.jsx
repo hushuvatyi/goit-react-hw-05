@@ -40,7 +40,7 @@ const Reviews = () => {
     <div className={styles.content}>
       {reviews && reviews.length > 0 && <ReviewCard reviews={reviews} />}
       {reviews && reviews.length === 0 && (
-        <Text>There are no cast for this movie yet</Text>
+        <Text>There are no reviews for this movie yet</Text>
       )}
       {isLoading && reviews === null && <Loader />}
       {isError && <Text>{error}</Text>}
