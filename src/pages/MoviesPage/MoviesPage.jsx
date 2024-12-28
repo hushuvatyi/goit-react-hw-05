@@ -25,7 +25,7 @@ const MoviesPage = () => {
       setIsLoading(true);
       setIsError(false);
       setMovies(null);
-      setSearch("");
+      //   setSearch("");
 
       try {
         const { results } = await fetchSearchMovie(queryValue);
