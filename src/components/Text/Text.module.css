@@ -1,0 +1,45 @@
+p {
+  margin: 0px;
+}
+.text {
+  font-weight: 700;
+
+  text-align: start;
+
+  font-size: 3em;
+  color: #646cff;
+}
+.end {
+  composes: text;
+  text-align: end;
+}
+.center {
+  composes: text;
+  text-align: center;
+}
+.justify {
+  composes: text;
+  text-align: justify;
+}
+
+.marginBottom10 {
+  margin-bottom: 10px;
+}
+.marginBottom20 {
+  margin-bottom: 20px;
+}
+.marginBottom0 {
+  margin-bottom: 0;
+}
+
+.textWrapper {
+  height: 30vh;
+  width: 60vw;
+  margin: 0 auto;
+  border: 1px dashed #646cff;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+}

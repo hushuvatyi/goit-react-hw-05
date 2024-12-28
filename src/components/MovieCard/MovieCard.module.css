@@ -1,0 +1,29 @@
+.cardImg {
+  width: 250px;
+  height: 350px;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+
+.cardContent {
+  text-align: center;
+}
+
+.cardTitle {
+  text-align: center;
+  font-weight: 700;
+  margin-top: 10px;
+  width: 250px;
+  height: 50px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  text-overflow: ellipsis;
+}
+
+.cardDate {
+  color: gray;
+  margin-bottom: 10px;
+}
