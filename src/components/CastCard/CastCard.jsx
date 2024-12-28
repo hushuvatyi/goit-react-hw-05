@@ -8,7 +8,7 @@ const CastCard = ({ data: { profile_path, name, character } }) => {
       <img
         className={styles.avatarImg}
         src={profile_path ? IMG_URL + profile_path : DEFAULT_IMG_URL}
-        alt={"avatar " + name}
+        alt={name}
         loading="lazy"
       />
 
